@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: lightgray;
+    color: black;
+    line-height: 1.6;
+}
+
+/* Container */
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: darkblue;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Section boxes */
+.section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: navy;
+    margin-bottom: 10px;
+}
+
+/* Images */
+.float-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.float-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Highlight text */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Simple card layout (still college level) */
+.card-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.card {
+    background-color: lightblue;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
