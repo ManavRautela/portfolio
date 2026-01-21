@@ -112,3 +112,18 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
+/* Video Embed Styling */
+.video-report iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid navy;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.video-report p {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: darkblue;
+}
+
